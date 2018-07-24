@@ -1,0 +1,6 @@
+1.im_detect_all
+根据config相关参数来产生cls_boxes, cls_segms, cls_keyps, cls_bodys
+2.im_conv_body_only
+在图片im上运行model.conv_body_net
+3.im_detect_box
+从_get_blobs函数中获取名为inputs的blob, 以及im_scale
